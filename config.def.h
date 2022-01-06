@@ -440,7 +440,7 @@ static const Rule rules[] = {
 	RULE(.wintype = WTYPE "SPLASH", .isfloating = 1)
 	RULE(.class = "Gimp", .tags = 1 << 4)
 	RULE(.class = "firefox", .tags = 1 << 1)
-	RULE(.class = "Code", .tags = 1 << 0)
+	RULE(.class = "code-oss", .tags = 1 << 0)
 	RULE(.class = "TelegramDesktop", .tags = 1 << 2)
 	RULE(.class = "Slack", .tags = 1 << 2)
 	#if SCRATCHPADS_PATCH
